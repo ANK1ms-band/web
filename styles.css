@@ -57,12 +57,14 @@
 
 #quisom > .L {
     float:left;
-    width: 60%;
+    background-image: url('media/web_thingy.png');
+    background-size: 100% 100%;
+    width: 66%;
 }
 
 #quisom > .R {
     float:right;
-    width: 40%;
+    width: 34%;
 }
 
 #quisom > .R > h2{
