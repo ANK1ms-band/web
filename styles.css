@@ -1,0 +1,89 @@
+* {
+    /* background-color: black; */
+    color: whitesmoke;
+    margin: 0px;
+  }
+
+.slide{
+
+}
+
+#s1 {
+    background-image: url('media/DSC_0006_extra_cropped.png');
+    height: 100vh;
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: gray;
+}
+
+#titletext{
+    text-align: right;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+#titletext > h1{
+    font-size: 5em;
+}
+#Biografia {
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Biografia > div > p {
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.8em;
+}
+
+#quisom {
+    /* background-image: url('media/DSC_0027.png'); */
+    height: 100vh;
+    background-color:  #111;
+    display: flex;
+}
+
+#quisom > .L {
+    float:left;
+    width: 60%;
+}
+
+#quisom > .R {
+    float:right;
+    width: 40%;
+}
+
+#quisom > .R > h2{
+    font-size: 3.5em;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.tarja{
+    background-color: #151515;
+    margin: 10px;
+    margin-right: 10%;
+    margin-top: 3%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.tarja > h3{
+    font-size: 2.2em;
+}
+
+.tarja > p {
+    font-size: 1.1em;
+}
