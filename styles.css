@@ -1,819 +1,4 @@
-@media (min-width: 1550px){
-    * {
-        /* background-color: black; */
-        color: whitesmoke;
-        margin: 0px;
-    }
-
-    #s1 {
-        background-image: url('media/DSC_0006_extra_cropped.png');
-        height: 100vh;
-        background-attachment: fixed;
-        /* background-position: center; */
-        background-repeat: no-repeat;
-        background-size: cover; /* per pantalles petites, */
-        position: relative;
-        background-color: gray;
-    }
-
-    #titletext{
-        text-align: right;
-        position: absolute;
-        bottom: 8px;
-        right: 16px;
-        padding: 10px;
-        transform: translate(-50%, -50%);
-        background-color: black;
-    }
-
-    #titletext > h1{
-        font-size: 5em;
-    }
-    #Biografia {
-        background-color: black;
-        height: 50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #Biografia > div > p {
-        text-align: center;
-        vertical-align: middle;
-        margin-left: 20%;
-        margin-right: 20%;
-        font-size: 1.8em;
-    }
-
-    #quisom {
-        height: 100vh;
-        background-color:  #111;
-        display: flex;
-    }
-
-    #quisom > .L {
-        float:left;
-        background-size: 100% 100%;
-        width: 66%;
-        display: flex;
-    }
-
-    .responsive{
-        max-width:100%;
-        max-height:100%;
-    }
-    
-    .center{
-    position: absolute;
-    top: 50%;
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    }
-    
-    .parent{
-    position: relative;
-    }
-
-    #quisom > .R {
-        float:right;
-        width: 34%;
-        padding: 50px;
-    }
-
-    #quisom > .R > h2{
-        font-size: 2.5em;
-        margin-left: 3%;
-        margin-top: 5%;
-    }
-
-    .tarja{
-        background-color: #151515;
-        margin: 10px;
-        margin-top: 3%;
-        padding: 10px;
-        padding-left: 20px;
-    }
-
-    .tarja > h3{
-        font-size: 1.8em;
-    }
-
-    .tarja > p {
-        font-size: 1.1em;
-    }
-
-    #s4 {
-        height: 80vh;
-        background-color:  #ccc;
-        display: flex;
-    }
-
-    #s4 > .R {
-        float:right;
-        width: 40%;
-        display: flex;
-    }
-
-    #s4 > .L {
-        float:left;
-        width: 60%;
-        
-    }
-
-    #s4 > .L> .center{
-        position: absolute;
-        top: 50%;
-        left: 30%; 
-        transform: translate(-20%, -50%);
-    }
-    
-    #s4 > .R> .center{
-        position: absolute;
-        top: 50%;
-        left: 50%; 
-        transform: translate(-50%, -50%);
-        /* margin-top: 50px; */
-        width: 90%;
-     }
-
-    #s4 > div > div > p {
-        font-size: 1.5em;
-        color: #111;
-    }
-
-    #s4 > div > div > h2 {
-        font-size: 2.5em;
-        color: #111;
-    }
-
-    #s5 {
-        max-height: 15vh;
-        min-height: fit-content;
-        padding-bottom: 40px;
-    }
-
-    #s5 > div{
-        padding-top: 5%;
-    }
-
-    #s5 > div > h2{
-        color: #111;
-        font-size: 2.5vw;
-        text-align: center;
-    }
-
-    #xarxes {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-
-    #xarxes > img {
-        margin: 10px;
-        max-height: 15vh;
-    }
-
-    #insta{
-        width: 7%;
-    }
-
-    #youtube{
-        width: 6.5%;
-    }
-
-    #spotify{
-        width: 7%;
-    }
-
-    #s6 {
-        height: auto;
-        background-color: #111;
-        margin-top: 15vh;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-    }
-    #s6 > p{
-        color: whitesmoke;
-    }
-}
-
-@media (min-width: 1200px) and (max-width: 1549px){
-    * {
-        /* background-color: black; */
-        color: whitesmoke;
-        margin: 0px;
-      }
-    
-    #s1 {
-        background-image: url('media/foto_escales_insta.png');
-        height: 100vh;
-        background-attachment: fixed;
-        /* background-position: center; */
-        background-repeat: no-repeat;
-        background-size: cover; /* per pantalles petites, */
-        position: relative;
-        background-color: gray;
-    }
-    
-    #titletext{
-        text-align: right;
-        position: absolute;
-        top: 80vh;
-        right: 2vw;
-        padding: 10px;
-        background-color: black;
-    }
-    
-    #titletext > h1{
-        font-size: 5em;
-    }
-    #Biografia {
-        background-color: black;
-        height: 50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #Biografia > div > p {
-        text-align: center;
-        vertical-align: middle;
-        margin-left: 20%;
-        margin-right: 20%;
-        font-size: 1.8em;
-    }
-    
-    #quisom {
-        height: 100vh;
-        background-color:  #111;
-        display: flex;
-    }
-    
-    #quisom > .L {
-        float:left;
-        background-size: 100% 100%;
-        width: 66%;
-        display: flex;
-    }
-    
-    .responsive{
-        max-width:100%;
-        max-height:100%;
-    }
-     
-    .center{
-       position: absolute;
-       top: 50%;
-       left: 50%; 
-       transform: translate(-50%, -50%);
-    }
-     
-    .parent{
-       position: relative;
-    }
-    
-    #quisom > .R {
-        float:right;
-        width: 34%;
-        padding: 35px;
-    }
-    
-    #quisom > .R > h2{
-        font-size: 2.5em;
-        margin-left: 3%;
-        margin-top: 5%;
-    }
-    
-    .tarja{
-        background-color: #151515;
-        margin: 10px;
-        margin-top: 3%;
-        padding: 10px;
-        padding-left: 20px;
-    }
-    
-    .tarja > h3{
-        font-size: 1.3em;
-    }
-    
-    .tarja > p {
-        font-size: 1.1em;
-    }
-    
-    #s4 {
-        height: 80vh;
-        background-color:  #ccc;
-        display: flex;
-    }
-    
-    #s4 > .R {
-        float:right;
-        width: 40%;
-        display: flex;
-    }
-    
-    #s4 > .L {
-        float:left;
-        width: 60%;
-        
-    }
-    
-    #s4 > .L> .center{
-        position: absolute;
-        top: 50%;
-        left: 30%; 
-        transform: translate(-20%, -50%);
-    }  
-    
-    #s4 > .R> .center{
-        position: absolute;
-        top: 50%;
-        left: 50%; 
-        transform: translate(-50%, -50%);
-        /* margin-top: 50px; */
-        width: 90%;
-     }
-    
-    #s4 > div > div > p {
-        font-size: 1.5em;
-        color: #111;
-    }
-    
-    #s4 > div > div > h2 {
-        font-size: 2.5em;
-        color: #111;
-    }
-    
-    #s5 {
-        max-height: 15vh;
-        min-height: fit-content;
-        padding-bottom: 40px;
-    }
-    
-    #s5 > div{
-        padding-top: 5%;
-    }
-    
-    #s5 > div > h2{
-        color: #111;
-        font-size: 2.9em;
-        text-align: center;
-    }
-    
-    #xarxes {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-    
-    #xarxes > img {
-        margin: 10px;
-        max-height: 15vh;
-    }
-    
-    #insta{
-        width: 9%;
-    }
-    
-    #youtube{
-        width: 8%;
-    }
-    
-    #spotify{
-        width: 9%;
-    }
-    
-    #s6 {
-        height: auto;
-        background-color: #111;
-        margin-top: 15vh;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-    }
-    #s6 > p{
-        color: whitesmoke;
-    } 
-}
-
-@media (min-width: 925px) and (max-width: 1199px){
-    * {
-        /* background-color: black; */
-        color: whitesmoke;
-        margin: 0px;
-      }
-    
-    #s1 {
-        background-image: url('media/DSC_0006_extra_cropped.png');
-        background-attachment: fixed;
-        /* background-position: center; */
-        background-repeat: no-repeat;
-        background-size:contain; /* per pantalles petites, */
-        position: relative;
-        height: 60vh;
-        background-color: gray;
-    }
-    
-    #titletext{
-        text-align: right;
-        position: absolute;
-        top: 42vh;
-        right: 2vw;
-        padding: 10px;
-        /* transform: translate(-50%, -50%); */
-        background-color: black;
-    }
-    
-    #titletext > h1{
-        font-size: 5em;
-    }
-
-    #Biografia {
-        background-color: black;
-        height: 40vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #Biografia > div > p {
-        text-align: center;
-        vertical-align: middle;
-        margin-left: 20%;
-        margin-right: 20%;
-        font-size: 1.5em;
-    }
-    
-    #quisom {
-        height: auto;
-        background-color:  #111;
-        padding-top:30px;
-        padding-bottom:30px;
-    }
-    
-    #quisom > .L {
-        /* background-size: 100% 100%; */
-        width: 100%;
-        height: 75vh;
-        display: flex;
-    }
-    
-    .responsive{
-        max-width:100%;
-        max-height:100%;
-      }
-     
-    .center{
-       position: absolute;
-       top: 50%;
-       left: 50%; 
-       transform: translate(-50%, -50%);
-    }
-     
-    .parent{
-       position: relative;
-     }
-    
-    
-    #quisom > .R {
-        width: 100%;
-        height: auto;
-    }
-    
-    #quisom > .R > h2{
-        font-size: 2.5em;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        text-align: center;
-    }
-    
-    .tarja{
-        background-color: #151515;
-        margin: 10px;
-        margin-top: 10px;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        padding: 10px;
-        padding-left: 20px;
-    }
-    
-    .tarja > h3{
-        font-size: 1.8em;
-    }
-    
-    .tarja > p {
-        font-size: 1.1em;
-    }
-    
-    #s4 {
-        height: 80vh;
-        background-color:  #ccc;
-        display: flex;
-    }
-    
-    #s4 > .R {
-        float:right;
-        width: 50%;
-    }
-    
-    #s4 > .L {
-        float:left;
-        width: 50%;
-        
-    }
-    
-    #s4 > .L> .center{
-        position: absolute;
-        top: 50%;
-        left: 30%; 
-        transform: translate(-20%, -50%);
-    }
-    
-    
-    #s4 > .R> .center{
-        position: absolute;
-        top: 50%;
-        left: 50%; 
-        transform: translate(-50%, -50%);
-        /* margin-top: 50px; */
-        width: 90%;
-     }
-    
-    #s4 > div > div > p {
-        font-size: 1.3em;
-        color: #111;
-    }
-    
-    #s4 > div > div > h2 {
-        font-size: 2.5em;
-        color: #111;
-    }
-    
-    #s5 {
-        max-height: 13vh;
-        min-height: fit-content;
-        padding-bottom: 40px;
-    }
-    
-    #s5 > div{
-        padding-top: 5%;
-    }
-    
-    #s5 > div > h2{
-        color: #111;
-        font-size: 2.5em;
-        text-align: center;
-    }
-    
-    #xarxes {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-    
-    #xarxes > img {
-        margin: 10px;
-        max-height: 15vh;
-    }
-    
-    #insta{
-        width: 9%;
-    }
-    
-    #youtube{
-        width: 8%;
-    }
-    
-    #spotify{
-        width: 9%;
-    }
-    
-    #s6 {
-        height: auto;
-        background-color: #111;
-        margin-top: 15vh;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-    }
-    #s6 > p{
-        color: whitesmoke;
-    }
-}
-
-@media (min-width: 625px) and (max-width: 924px){
-    * {
-        /* background-color: black; */
-        color: whitesmoke;
-        margin: 0px;
-        /* outline: 1px solid #f00 !important; */
-    }
-    
-    #s1 {
-        background-image: url('media/DSC_0006_extra_cropped.png');
-        background-attachment: fixed;
-        /* background-position: center; */
-        background-repeat: no-repeat;
-        background-size:contain; /* per pantalles petites, */
-        position: relative;
-        height: 40vh;
-        background-color: gray;
-    }
-    
-    #titletext{
-        text-align: right;
-        position: absolute;
-        top: 26vh;
-        right: 2vw;
-        padding: 10px;
-        /* transform: translate(-50%, -50%); */
-        background-color: black;
-    }
-    
-    #titletext > h1{
-        font-size: 3em;
-    }
-    #Biografia {
-        background-color: black;
-        height: 40vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #Biografia > div > p {
-        text-align: center;
-        vertical-align: middle;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 1.3em;
-    }
-    
-    #quisom {
-        height: auto;
-        background-color:  #111;
-        padding-top:30px;
-        padding-bottom:30px;
-    }
-    
-    #quisom > .L {
-        /* background-size: 100% 100%; */
-        width: 100%;
-        height: 75vh;
-        display: flex;
-    }
-    
-    .responsive{
-        max-width:100%;
-        max-height:100%;
-      }
-     
-    .center{
-       position: absolute;
-       top: 50%;
-       left: 50%; 
-       transform: translate(-50%, -50%);
-    }
-     
-    .parent{
-       position: relative;
-     }
-    
-    
-    #quisom > .R {
-        width: 100%;
-        height: auto;
-    }
-    
-    #quisom > .R > h2{
-        font-size: 2.5em;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        text-align: center;
-    }
-    
-    .tarja{
-        background-color: #151515;
-        margin: 10px;
-        margin-top: 10px;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        padding: 10px;
-        padding-left: 20px;
-    }
-    
-    .tarja > h3{
-        font-size: 1.8em;
-    }
-    
-    .tarja > p {
-        font-size: 1.1em;
-    }
-    
-    #s4 {
-        height: 80vh;
-        background-color:  #ccc;
-        display: flex;
-    }
-    
-    #s4 > .R {
-        float:right;
-        width: 50%;
-    }
-    
-    #s4 > .L {
-        float:left;
-        width: 50%;
-        
-    }
-    
-    #s4 > .L> .center{
-        position: absolute;
-        top: 50%;
-        left: 30%; 
-        transform: translate(-20%, -50%);
-    }
-    
-    #s4 > .R> .center{
-        position: absolute;
-        top: 50%;
-        left: 50%; 
-        transform: translate(-50%, -50%);
-        width: 90%;
-     }
-    
-    #s4 > div > div > p {
-        font-size: 1.15em;
-        color: #111;
-    }
-    
-    #s4 > div > div > h2 {
-        font-size: 2em;
-        color: #111;
-    }
-    
-    #s5 {
-        max-height: 15vh;
-        min-height: fit-content;
-        padding-bottom: 40px;
-    }
-    
-    #s5 > div{
-        padding-top: 5%;
-    }
-    
-    #s5 > div > h2{
-        color: #111;
-        font-size: 2.0em;
-        text-align: center;
-    }
-    
-    #xarxes {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-    
-    #xarxes > img {
-        margin: 10px;
-        max-height: 15vh;
-    }
-    
-    #insta{
-        width: 9%;
-    }
-    
-    #youtube{
-        width: 8%;
-    }
-    
-    #spotify{
-        width: 9%;
-    }
-    
-    #s6 {
-        height: auto;
-        background-color: #111;
-        margin-top: 10vh;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-    }
-    #s6 > p{
-        color: whitesmoke;
-    }
-}
-
-@media (max-width: 624px){
+@media only screen and (min-device-width: 420px) and (max-width: 624px){
     * {
         /* background-color: black; */
         color: whitesmoke;
@@ -1030,3 +215,821 @@
         color: whitesmoke;
     }
 }
+
+@media (min-width: 925px) and (max-width: 1199px){
+    * {
+        /* background-color: black; */
+        color: whitesmoke;
+        margin: 0px;
+      }
+    
+    #s1 {
+        background-image: url('media/DSC_0006_extra_cropped.png');
+        background-attachment: fixed;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size:contain; /* per pantalles petites, */
+        position: relative;
+        height: 60vh;
+        background-color: gray;
+    }
+    
+    #titletext{
+        text-align: right;
+        position: absolute;
+        top: 42vh;
+        right: 2vw;
+        padding: 10px;
+        /* transform: translate(-50%, -50%); */
+        background-color: black;
+    }
+    
+    #titletext > h1{
+        font-size: 5em;
+    }
+
+    #Biografia {
+        background-color: black;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #Biografia > div > p {
+        text-align: center;
+        vertical-align: middle;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 1.5em;
+    }
+    
+    #quisom {
+        height: auto;
+        background-color:  #111;
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+    
+    #quisom > .L {
+        /* background-size: 100% 100%; */
+        width: 100%;
+        height: 75vh;
+        display: flex;
+    }
+    
+    .responsive{
+        max-width:100%;
+        max-height:100%;
+      }
+     
+    .center{
+       position: absolute;
+       top: 50%;
+       left: 50%; 
+       transform: translate(-50%, -50%);
+    }
+     
+    .parent{
+       position: relative;
+     }
+    
+    
+    #quisom > .R {
+        width: 100%;
+        height: auto;
+    }
+    
+    #quisom > .R > h2{
+        font-size: 2.5em;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        text-align: center;
+    }
+    
+    .tarja{
+        background-color: #151515;
+        margin: 10px;
+        margin-top: 10px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding: 10px;
+        padding-left: 20px;
+    }
+    
+    .tarja > h3{
+        font-size: 1.8em;
+    }
+    
+    .tarja > p {
+        font-size: 1.1em;
+    }
+    
+    #s4 {
+        height: 80vh;
+        background-color:  #ccc;
+        display: flex;
+    }
+    
+    #s4 > .R {
+        float:right;
+        width: 50%;
+    }
+    
+    #s4 > .L {
+        float:left;
+        width: 50%;
+        
+    }
+    
+    #s4 > .L> .center{
+        position: absolute;
+        top: 50%;
+        left: 30%; 
+        transform: translate(-20%, -50%);
+    }
+    
+    
+    #s4 > .R> .center{
+        position: absolute;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        /* margin-top: 50px; */
+        width: 90%;
+     }
+    
+    #s4 > div > div > p {
+        font-size: 1.3em;
+        color: #111;
+    }
+    
+    #s4 > div > div > h2 {
+        font-size: 2.5em;
+        color: #111;
+    }
+    
+    #s5 {
+        max-height: 13vh;
+        min-height: fit-content;
+        padding-bottom: 40px;
+    }
+    
+    #s5 > div{
+        padding-top: 5%;
+    }
+    
+    #s5 > div > h2{
+        color: #111;
+        font-size: 2.5em;
+        text-align: center;
+    }
+    
+    #xarxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    #xarxes > img {
+        margin: 10px;
+        max-height: 15vh;
+    }
+    
+    #insta{
+        width: 9%;
+    }
+    
+    #youtube{
+        width: 8%;
+    }
+    
+    #spotify{
+        width: 9%;
+    }
+    
+    #s6 {
+        height: auto;
+        background-color: #111;
+        margin-top: 15vh;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #s6 > p{
+        color: whitesmoke;
+    }
+}
+
+@media (min-width: 925px) and (max-width: 1199px){
+    * {
+        /* background-color: black; */
+        color: whitesmoke;
+        margin: 0px;
+      }
+    
+    #s1 {
+        background-image: url('media/DSC_0006_extra_cropped.png');
+        background-attachment: fixed;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size:contain; /* per pantalles petites, */
+        position: relative;
+        height: 60vh;
+        background-color: gray;
+    }
+    
+    #titletext{
+        text-align: right;
+        position: absolute;
+        top: 42vh;
+        right: 2vw;
+        padding: 10px;
+        /* transform: translate(-50%, -50%); */
+        background-color: black;
+    }
+    
+    #titletext > h1{
+        font-size: 5em;
+    }
+
+    #Biografia {
+        background-color: black;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #Biografia > div > p {
+        text-align: center;
+        vertical-align: middle;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 1.5em;
+    }
+    
+    #quisom {
+        height: auto;
+        background-color:  #111;
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+    
+    #quisom > .L {
+        /* background-size: 100% 100%; */
+        width: 100%;
+        height: 75vh;
+        display: flex;
+    }
+    
+    .responsive{
+        max-width:100%;
+        max-height:100%;
+      }
+     
+    .center{
+       position: absolute;
+       top: 50%;
+       left: 50%; 
+       transform: translate(-50%, -50%);
+    }
+     
+    .parent{
+       position: relative;
+     }
+    
+    
+    #quisom > .R {
+        width: 100%;
+        height: auto;
+    }
+    
+    #quisom > .R > h2{
+        font-size: 2.5em;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        text-align: center;
+    }
+    
+    .tarja{
+        background-color: #151515;
+        margin: 10px;
+        margin-top: 10px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding: 10px;
+        padding-left: 20px;
+    }
+    
+    .tarja > h3{
+        font-size: 1.8em;
+    }
+    
+    .tarja > p {
+        font-size: 1.1em;
+    }
+    
+    #s4 {
+        height: 80vh;
+        background-color:  #ccc;
+        display: flex;
+    }
+    
+    #s4 > .R {
+        float:right;
+        width: 50%;
+    }
+    
+    #s4 > .L {
+        float:left;
+        width: 50%;
+        
+    }
+    
+    #s4 > .L> .center{
+        position: absolute;
+        top: 50%;
+        left: 30%; 
+        transform: translate(-20%, -50%);
+    }
+    
+    
+    #s4 > .R> .center{
+        position: absolute;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        /* margin-top: 50px; */
+        width: 90%;
+     }
+    
+    #s4 > div > div > p {
+        font-size: 1.3em;
+        color: #111;
+    }
+    
+    #s4 > div > div > h2 {
+        font-size: 2.5em;
+        color: #111;
+    }
+    
+    #s5 {
+        max-height: 13vh;
+        min-height: fit-content;
+        padding-bottom: 40px;
+    }
+    
+    #s5 > div{
+        padding-top: 5%;
+    }
+    
+    #s5 > div > h2{
+        color: #111;
+        font-size: 2.5em;
+        text-align: center;
+    }
+    
+    #xarxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    #xarxes > img {
+        margin: 10px;
+        max-height: 15vh;
+    }
+    
+    #insta{
+        width: 9%;
+    }
+    
+    #youtube{
+        width: 8%;
+    }
+    
+    #spotify{
+        width: 9%;
+    }
+    
+    #s6 {
+        height: auto;
+        background-color: #111;
+        margin-top: 15vh;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #s6 > p{
+        color: whitesmoke;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1549px){
+    * {
+        /* background-color: black; */
+        color: whitesmoke;
+        margin: 0px;
+      }
+    
+    #s1 {
+        background-image: url('media/foto_escales_insta.png');
+        height: 100vh;
+        background-attachment: fixed;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover; /* per pantalles petites, */
+        position: relative;
+        background-color: gray;
+    }
+    
+    #titletext{
+        text-align: right;
+        position: absolute;
+        top: 80vh;
+        right: 2vw;
+        padding: 10px;
+        background-color: black;
+    }
+    
+    #titletext > h1{
+        font-size: 5em;
+    }
+    #Biografia {
+        background-color: black;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #Biografia > div > p {
+        text-align: center;
+        vertical-align: middle;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 1.8em;
+    }
+    
+    #quisom {
+        height: 100vh;
+        background-color:  #111;
+        display: flex;
+    }
+    
+    #quisom > .L {
+        float:left;
+        background-size: 100% 100%;
+        width: 66%;
+        display: flex;
+    }
+    
+    .responsive{
+        max-width:100%;
+        max-height:100%;
+    }
+     
+    .center{
+       position: absolute;
+       top: 50%;
+       left: 50%; 
+       transform: translate(-50%, -50%);
+    }
+     
+    .parent{
+       position: relative;
+    }
+    
+    #quisom > .R {
+        float:right;
+        width: 34%;
+        padding: 35px;
+    }
+    
+    #quisom > .R > h2{
+        font-size: 2.5em;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+    
+    .tarja{
+        background-color: #151515;
+        margin: 10px;
+        margin-top: 3%;
+        padding: 10px;
+        padding-left: 20px;
+    }
+    
+    .tarja > h3{
+        font-size: 1.3em;
+    }
+    
+    .tarja > p {
+        font-size: 1.1em;
+    }
+    
+    #s4 {
+        height: 80vh;
+        background-color:  #ccc;
+        display: flex;
+    }
+    
+    #s4 > .R {
+        float:right;
+        width: 40%;
+        display: flex;
+    }
+    
+    #s4 > .L {
+        float:left;
+        width: 60%;
+        
+    }
+    
+    #s4 > .L> .center{
+        position: absolute;
+        top: 50%;
+        left: 30%; 
+        transform: translate(-20%, -50%);
+    }  
+    
+    #s4 > .R> .center{
+        position: absolute;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        /* margin-top: 50px; */
+        width: 90%;
+     }
+    
+    #s4 > div > div > p {
+        font-size: 1.5em;
+        color: #111;
+    }
+    
+    #s4 > div > div > h2 {
+        font-size: 2.5em;
+        color: #111;
+    }
+    
+    #s5 {
+        max-height: 15vh;
+        min-height: fit-content;
+        padding-bottom: 40px;
+    }
+    
+    #s5 > div{
+        padding-top: 5%;
+    }
+    
+    #s5 > div > h2{
+        color: #111;
+        font-size: 2.9em;
+        text-align: center;
+    }
+    
+    #xarxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    #xarxes > img {
+        margin: 10px;
+        max-height: 15vh;
+    }
+    
+    #insta{
+        width: 9%;
+    }
+    
+    #youtube{
+        width: 8%;
+    }
+    
+    #spotify{
+        width: 9%;
+    }
+    
+    #s6 {
+        height: auto;
+        background-color: #111;
+        margin-top: 15vh;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #s6 > p{
+        color: whitesmoke;
+    } 
+}
+
+@media (min-width: 1550px){
+    * {
+        /* background-color: black; */
+        color: whitesmoke;
+        margin: 0px;
+    }
+
+    #s1 {
+        background-image: url('media/DSC_0006_extra_cropped.png');
+        height: 100vh;
+        background-attachment: fixed;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover; /* per pantalles petites, */
+        position: relative;
+        background-color: gray;
+    }
+
+    #titletext{
+        text-align: right;
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+        padding: 10px;
+        transform: translate(-50%, -50%);
+        background-color: black;
+    }
+
+    #titletext > h1{
+        font-size: 5em;
+    }
+    #Biografia {
+        background-color: black;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Biografia > div > p {
+        text-align: center;
+        vertical-align: middle;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 1.8em;
+    }
+
+    #quisom {
+        height: 100vh;
+        background-color:  #111;
+        display: flex;
+    }
+
+    #quisom > .L {
+        float:left;
+        background-size: 100% 100%;
+        width: 66%;
+        display: flex;
+    }
+
+    .responsive{
+        max-width:100%;
+        max-height:100%;
+    }
+    
+    .center{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    }
+    
+    .parent{
+    position: relative;
+    }
+
+    #quisom > .R {
+        float:right;
+        width: 34%;
+        padding: 50px;
+    }
+
+    #quisom > .R > h2{
+        font-size: 2.5em;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+
+    .tarja{
+        background-color: #151515;
+        margin: 10px;
+        margin-top: 3%;
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    .tarja > h3{
+        font-size: 1.8em;
+    }
+
+    .tarja > p {
+        font-size: 1.1em;
+    }
+
+    #s4 {
+        height: 80vh;
+        background-color:  #ccc;
+        display: flex;
+    }
+
+    #s4 > .R {
+        float:right;
+        width: 40%;
+        display: flex;
+    }
+
+    #s4 > .L {
+        float:left;
+        width: 60%;
+        
+    }
+
+    #s4 > .L> .center{
+        position: absolute;
+        top: 50%;
+        left: 30%; 
+        transform: translate(-20%, -50%);
+    }
+    
+    #s4 > .R> .center{
+        position: absolute;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        /* margin-top: 50px; */
+        width: 90%;
+     }
+
+    #s4 > div > div > p {
+        font-size: 1.5em;
+        color: #111;
+    }
+
+    #s4 > div > div > h2 {
+        font-size: 2.5em;
+        color: #111;
+    }
+
+    #s5 {
+        max-height: 15vh;
+        min-height: fit-content;
+        padding-bottom: 40px;
+    }
+
+    #s5 > div{
+        padding-top: 5%;
+    }
+
+    #s5 > div > h2{
+        color: #111;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    #xarxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    #xarxes > img {
+        margin: 10px;
+        max-height: 15vh;
+    }
+
+    #insta{
+        width: 7%;
+    }
+
+    #youtube{
+        width: 6.5%;
+    }
+
+    #spotify{
+        width: 7%;
+    }
+
+    #s6 {
+        height: auto;
+        background-color: #111;
+        margin-top: 15vh;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #s6 > p{
+        color: whitesmoke;
+    }
+}
+
