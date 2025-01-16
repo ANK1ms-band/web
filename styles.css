@@ -38,7 +38,7 @@
         width: fit-content;
         right: 0px;
         padding: 5px;
-        background-color: orange;
+        background-color: black;
     }
 
     #titletext > h1{
@@ -251,7 +251,7 @@
         width: fit-content;
         right: 0px;
         padding: 5px;
-        background-color: red;
+        background-color: black;
     }
     
     #titletext > h1{
@@ -432,7 +432,7 @@
     }
     #s6 > p{
         color: whitesmoke;
-        font-size: 1vh;
+        font-size: 0.8vh;
     }
 }
 /*
