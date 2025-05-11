@@ -357,6 +357,8 @@
     #video > iframe{
         width: 60vw;
         height: 31vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
 
     #Biografia {
@@ -432,7 +434,7 @@
     }
     
     .tarja > h3{
-        font-size: 2vh;
+        font-size: 1.8vh;
     }
     
     .tarja > p {
@@ -460,6 +462,7 @@
     #s4 > .L {
         width: 100%;
         height: 30vh;
+        padding-left: 1vh;
     }
     
     #s4 > .L> .center{
@@ -495,9 +498,9 @@
     
     #concerts > .R {
         width: 100%;
-        height: 31vh;
-        padding-top: 3vh;
-        padding-bottom: 3vh;
+        height: 27vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
     }
     
     #concerts > .L {
