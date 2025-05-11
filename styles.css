@@ -1,6 +1,5 @@
-@media only screen and (min-device-width: 430px){
+@media only screen and (min-device-width: 431px){
     * {
-        /* background-color: black; */
         color: whitesmoke;
         margin: 0px;
         /* outline: 1px solid #f00 !important;
@@ -32,20 +31,41 @@
         text-align: right;
         float: right;
         position: sticky;
-        margin-top: -180px;
+        margin-top: -15vw;
         margin-right: 30px;
         width: fit-content;
         right: 0px;
-        padding: 5px;
+        padding: 6px;
         background-color: black;
     }
 
     #titletext > h1{
-        font-size: 5em;
+        font-size: 6vw;
+        /* margin-bottom: -15px; */
     }
+    #titletext > h4{
+        font-size: 1.7vw;
+    }
+    #titletext > h2{
+        font-size: 1.7vw;
+    }
+
+    #video{
+        text-align: center;
+        height:auto;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        background-color: #111111;
+    }
+
+    #video > iframe{
+        width: 60vw;
+        height: 31vw;
+    }
+
     #Biografia {
         background-color: black;
-        height: 50vh;
+        height: 26vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -56,7 +76,7 @@
         vertical-align: middle;
         margin-left: 20%;
         margin-right: 20%;
-        font-size: 1.8em;
+        font-size: 2vw;
     }
 
     #quisom {
@@ -78,46 +98,48 @@
     }
     
     .center{
-    position: absolute;
-    top: 50%;
-    left: 50%; 
-    transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
     }
     
     .parent{
-    position: relative;
+        position: relative;
     }
 
     #quisom > .R {
         float:right;
-        width: 34%;
-        padding: 50px;
+        width: auto;
+        max-width: 40%;
+        padding: 2vw;
+        padding-left: 3vw;
     }
 
     #quisom > .R > h2{
-        font-size: 2.5em;
-        margin-left: 3%;
-        margin-top: 5%;
+        font-size: 2.5vw;
+        margin-left: 5%;
+        margin-top: 2%;
     }
 
     .tarja{
         background-color: #151515;
         margin: 10px;
         margin-top: 3%;
-        padding: 10px;
-        padding-left: 20px;
+        padding: 1vw;
+        padding-left: 1.3vw;
     }
 
     .tarja > h3{
-        font-size: 1.8em;
+        font-size: 1.8vw;
     }
 
     .tarja > p {
-        font-size: 1.1em;
+        font-size: 1.3vw;
     }
 
     #s4 {
-        min-height: 40vw;
+        min-height: 35vw;
         padding-top: 5vh;
         padding-bottom: 5vh;
         background-color:  #ccc;
@@ -126,6 +148,7 @@
 
     #s4 > .R {
         float:right;
+        margin-right:3vw;
         width: 40%;
         display: flex;
     }
@@ -159,6 +182,61 @@
     #s4 > div > div > h2 {
         font-size: 2.5vw;
         color: #111;
+    }
+
+    #concerts {
+        min-height: 30vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        background-color:  #111;
+        display: flex;
+    }
+
+    #concerts > .R {
+        float:right;
+        margin-right:3vw;
+        width: 52%;
+        display: flex;
+    }
+
+    #concerts > .R> .center{
+        position: absolute;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+
+    #concerts > .R > .center> img{
+        width: 19vw;
+        height: 26.9vw;
+        margin:0.5vw;
+    }
+
+    #concerts > .L {
+        float:left;
+        width: 48%;
+    }
+
+    #concerts > .L> .center{
+        position: absolute;
+        width: 90%;
+        top: 50%;
+        left: 13vw; 
+        transform: translate(-20%, -50%);
+    }
+
+    #concerts > .L> #concertstext > h2 {
+        font-size: 2.8vw;
+    }
+
+    #concerts > .L> #concertstext > p {
+        font-size: 1.6vw;
+    }
+
+    #concerts > .L> #concertstext > ul >  p {
+        font-size: 1.6vw;
+        margin: 0.5vw;
     }
 
     #s5 {
@@ -210,9 +288,8 @@
     }
 }
 
-@media only screen and (max-device-width: 431px){
+@media only screen and (max-device-width: 430px){
     * {
-        /* background-color: black; */
         color: whitesmoke;
         margin: 0px;
         /* outline: 1px solid #f00 !important; */
@@ -222,13 +299,14 @@
         background-color: black;
     }
 
-    #slides {
+    /* #slides {
         display: flex;
         flex-direction: column;
-    }
+    } */
     
     #s1 {
-        height: auto;
+        height: 30vw;
+        margin-bottom: 30vw;
     }
 
     #s1 > #small {
@@ -254,13 +332,27 @@
     }
     
     #titletext > h1{
-        font-size: 3.2vh;
-    }
-    #titletext > h2{
-        font-size: 1.5vh;
+        font-size: 8vw;
+        /* margin-bottom: -15px; */
     }
     #titletext > h4{
-        font-size: 1.2vh;
+        font-size: 2.7vw;
+    }
+    #titletext > h2{
+        font-size: 2.7vw;
+    }
+
+    #video{
+        text-align: center;
+        height:auto;
+        padding-top: 5vw;
+        padding-bottom: 2vw;
+        background-color: #111111;
+    }
+
+    #video > iframe{
+        width: 60vw;
+        height: 31vw;
     }
 
     #Biografia {
@@ -289,7 +381,6 @@
     }
     
     #quisom > .L {
-        /* background-size: 100% 100%; */
         width: 100%;
         height: 35vh;
         display: flex;
@@ -390,6 +481,57 @@
         font-size: 2.5vh;
         color: #111;
     }
+
+    #concerts {
+        height: auto;
+        padding-bottom: 50px;
+        background-color:  #111;
+    }
+    
+    #concerts > .R {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #concerts > .R > div > img {
+        aspect-ratio: 1/1;
+        max-width: 35vw;
+        max-height: 50vw;
+        margin: 3vw;
+    }
+    
+    #concerts > .L {
+        width: 100%;
+        height: 25vh;
+    }
+    
+    #concerts > .L> .center{
+        position: absolute;
+        top: 55%;
+        left: 20%; 
+        transform: translate(-10%, -50%);
+    }
+    
+    #concerts > .R> .center{
+        position: absolute;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        width: 90%;
+     }
+
+    #concerts > .L> #concertstext > h2 {
+        font-size: 5.5vw;
+    }
+
+    #concerts > .L> #concertstext > p {
+        font-size: 3.6vw;
+    }
+
+    #concerts > .L> #concertstext > ul >  p {
+        font-size: 3.3vw;
+        margin: 0.5vw;
+    }
     
     #s5 {
         max-height: 8vh;
@@ -434,616 +576,3 @@
         font-size: 0.8vh;
     }
 }
-/*
-@media only screen and (min-device-width: 625px) and (max-device-width: 924px){
-    * {
-        color: whitesmoke;
-        margin: 0px;
-    }
-    
-    #s1 {
-        background-image: url('media/DSC_0006_extra_cropped.png');
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size:contain;
-        position: relative;
-        height: 28vh;
-        background-color: gray;
-    }
-    
-    #titletext{
-        text-align: right;
-        position: absolute;
-        top: 18vh;
-        right: 2vw;
-        padding: 3px;
-        background-color: red;
-    }
-    
-    #titletext > h1{
-        font-size: 2em;
-    }
-    #titletext > h2{
-        font-size: 1em;
-    }
-
-    #Biografia {
-        background-color: black;
-        height: 40vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #Biografia > div > p {
-        text-align: center;
-        vertical-align: middle;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 1.2em;
-    }
-    
-    #quisom {
-        height: auto;
-        background-color:  #111;
-        padding-top:30px;
-        padding-bottom:30px;
-    }
-    
-    #quisom > .L {
-        width: 100%;
-        height: 35vh;
-        display: flex;
-    }
-    
-    .responsive{
-        max-width:100%;
-        max-height:100%;
-      }
-     
-    .center{
-       position: absolute;
-       top: 50%;
-       left: 50%; 
-       transform: translate(-50%, -50%);
-    }
-     
-    .parent{
-       position: relative;
-     }
-    
-    
-    #quisom > .R {
-        width: 100%;
-        height: auto;
-    }
-    
-    #quisom > .R > h2{
-        font-size: 2.5em;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        text-align: center;
-    }
-    
-    .tarja{
-        background-color: #151515;
-        margin: 10px;
-        margin-top: 10px;
-        margin-left: 5vw;
-        margin-right: 5vw;
-        padding: 10px;
-        padding-left: 20px;
-    }
-    
-    .tarja > h3{
-        font-size: 1.3em;
-    }
-    
-    .tarja > p {
-        font-size: 1.0em;
-    }
-    
-    #s4 {
-        height: auto;
-        padding-bottom: 50px;
-        background-color:  #ccc;
-    }
-    
-    #s4 > .R {
-        width: 50%;
-        width: 100%;
-        height: 50vh;
-    }
-
-    #s4 > .R > img {
-        aspect-ratio: 1/1;
-        max-width: 80vw;
-        max-height: 80vw;
-    }
-    
-    #s4 > .L {
-        width: 50%;
-        width: 100%;
-        height: 50vh;
-    }
-    
-    #s4 > .L> .center{
-        position: absolute;
-        top: 55%;
-        left: 20%; 
-        transform: translate(-10%, -50%);
-    }
-    
-    #s4 > .R> .center{
-        position: absolute;
-        top: 50%;
-        left: 50%; 
-        transform: translate(-50%, -50%);
-        width: 90%;
-     }
-    
-    #s4 > div > div > p {
-        font-size: 1.15em;
-        color: #111;
-    }
-    
-    #s4 > div > div > h2 {
-        font-size: 1.5em;
-        color: #111;
-    }
-    
-    #s5 {
-        max-height: 10vh;
-        padding-bottom: 0px;
-    }
-    
-    #s5 > div{
-        padding-top: 5%;
-    }
-    
-    #s5 > div > h2{
-        color: #111;
-        font-size: 1.2em;
-        text-align: center;
-    }
-    
-    #xarxes {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-    
-    #xarxes > img {
-        margin: 10px;
-    }
-    
-    #insta{
-        width: 9%;
-    }
-    
-    #youtube{
-        width: 8%;
-    }
-    
-    #spotify{
-        width: 9%;
-    }
-    
-    #s6 {
-        height: auto;
-        background-color: #111;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-        margin-top: 10vh;
-    }
-    #s6 > p{
-        color: whitesmoke;
-    }
-}*/
-/*
-@media only screen and (min-device-width: 925px) and (max-device-width: 1199px){
-    * {
-        color: whitesmoke;
-        margin: 0px;
-      }
-    
-    #s1 {
-        background-image: url('media/DSC_0006_extra_cropped.png');
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size:contain;
-        position: relative;
-        height: 60vh;
-        background-color: gray;
-    }
-    
-    #titletext{
-        text-align: right;
-        position: absolute;
-        top: 42vh;
-        right: 2vw;
-        padding: 10px;
-        background-color: yellow;
-    }
-    
-    #titletext > h1{
-        font-size: 5em;
-    }
-
-    #Biografia {
-        background-color: black;
-        height: 40vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #Biografia > div > p {
-        text-align: center;
-        vertical-align: middle;
-        margin-left: 20%;
-        margin-right: 20%;
-        font-size: 1.5em;
-    }
-    
-    #quisom {
-        height: auto;
-        background-color:  #111;
-        padding-top:30px;
-        padding-bottom:30px;
-    }
-    
-    #quisom > .L {
-        width: 100%;
-        height: 75vh;
-        display: flex;
-    }
-    
-    .responsive{
-        max-width:100%;
-        max-height:100%;
-      }
-     
-    .center{
-       position: absolute;
-       top: 50%;
-       left: 50%; 
-       transform: translate(-50%, -50%);
-    }
-     
-    .parent{
-       position: relative;
-     }
-    
-    
-    #quisom > .R {
-        width: 100%;
-        height: auto;
-    }
-    
-    #quisom > .R > h2{
-        font-size: 2.5em;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        text-align: center;
-    }
-    
-    .tarja{
-        background-color: #151515;
-        margin: 10px;
-        margin-top: 10px;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        padding: 10px;
-        padding-left: 20px;
-    }
-    
-    .tarja > h3{
-        font-size: 1.8em;
-    }
-    
-    .tarja > p {
-        font-size: 1.1em;
-    }
-    
-    #s4 {
-        height: 80vh;
-        background-color:  #ccc;
-        display: flex;
-    }
-    
-    #s4 > .R {
-        float:right;
-        width: 50%;
-    }
-    
-    #s4 > .L {
-        float:left;
-        width: 50%;
-        
-    }
-    
-    #s4 > .L> .center{
-        position: absolute;
-        top: 50%;
-        left: 30%; 
-        transform: translate(-20%, -50%);
-    }
-    
-    
-    #s4 > .R> .center{
-        position: absolute;
-        top: 50%;
-        left: 50%; 
-        transform: translate(-50%, -50%);
-        width: 90%;
-     }
-    
-    #s4 > div > div > p {
-        font-size: 1.3em;
-        color: #111;
-    }
-    
-    #s4 > div > div > h2 {
-        font-size: 2.5em;
-        color: #111;
-    }
-    
-    #s5 {
-        max-height: 13vh;
-        min-height: fit-content;
-        padding-bottom: 40px;
-    }
-    
-    #s5 > div{
-        padding-top: 5%;
-    }
-    
-    #s5 > div > h2{
-        color: #111;
-        font-size: 2.5em;
-        text-align: center;
-    }
-    
-    #xarxes {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-    
-    #xarxes > img {
-        margin: 10px;
-        max-height: 15vh;
-    }
-    
-    #insta{
-        width: 9%;
-    }
-    
-    #youtube{
-        width: 8%;
-    }
-    
-    #spotify{
-        width: 9%;
-    }
-    
-    #s6 {
-        height: auto;
-        background-color: #111;
-        margin-top: 15vh;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-    }
-    #s6 > p{
-        color: whitesmoke;
-    }
-}*/
-/*
-@media only screen and (min-device-width: 1200px) and (max-device-width: 1549px){
-    * {
-        color: whitesmoke;
-        margin: 0px;
-      }
-    
-    #s1 {
-        background-image: url('media/foto_escales_insta.png');
-        height: 100vh;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        position: relative;
-        background-color: gray;
-    }
-    
-    #titletext{
-        text-align: right;
-        position: absolute;
-        top: 80vh;
-        right: 2vw;
-        padding: 10px;
-        background-color: black;
-    }
-    
-    #titletext > h1{
-        font-size: 5em;
-    }
-    #Biografia {
-        background-color: black;
-        height: 50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #Biografia > div > p {
-        text-align: center;
-        vertical-align: middle;
-        margin-left: 20%;
-        margin-right: 20%;
-        font-size: 1.8em;
-    }
-    
-    #quisom {
-        height: 100vh;
-        background-color:  #111;
-        display: flex;
-    }
-    
-    #quisom > .L {
-        float:left;
-        background-size: 100% 100%;
-        width: 66%;
-        display: flex;
-    }
-    
-    .responsive{
-        max-width:100%;
-        max-height:100%;
-    }
-     
-    .center{
-       position: absolute;
-       top: 50%;
-       left: 50%; 
-       transform: translate(-50%, -50%);
-    }
-     
-    .parent{
-       position: relative;
-    }
-    
-    #quisom > .R {
-        float:right;
-        width: 34%;
-        padding: 35px;
-    }
-    
-    #quisom > .R > h2{
-        font-size: 2.5em;
-        margin-left: 3%;
-        margin-top: 5%;
-    }
-    
-    .tarja{
-        background-color: #151515;
-        margin: 10px;
-        margin-top: 3%;
-        padding: 10px;
-        padding-left: 20px;
-    }
-    
-    .tarja > h3{
-        font-size: 1.3em;
-    }
-    
-    .tarja > p {
-        font-size: 1.1em;
-    }
-    
-    #s4 {
-        height: 80vh;
-        background-color:  #ccc;
-        display: flex;
-    }
-    
-    #s4 > .R {
-        float:right;
-        width: 40%;
-        display: flex;
-    }
-    
-    #s4 > .L {
-        float:left;
-        width: 60%;
-        
-    }
-    
-    #s4 > .L> .center{
-        position: absolute;
-        top: 50%;
-        left: 30%; 
-        transform: translate(-20%, -50%);
-    }  
-    
-    #s4 > .R> .center{
-        position: absolute;
-        top: 50%;
-        left: 50%; 
-        transform: translate(-50%, -50%);
-        width: 90%;
-     }
-    
-    #s4 > div > div > p {
-        font-size: 1.5em;
-        color: #111;
-    }
-    
-    #s4 > div > div > h2 {
-        font-size: 2.5em;
-        color: #111;
-    }
-    
-    #s5 {
-        max-height: 15vh;
-        min-height: fit-content;
-        padding-bottom: 40px;
-    }
-    
-    #s5 > div{
-        padding-top: 5%;
-    }
-    
-    #s5 > div > h2{
-        color: #111;
-        font-size: 2.9em;
-        text-align: center;
-    }
-    
-    #xarxes {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-    
-    #xarxes > img {
-        margin: 10px;
-        max-height: 15vh;
-    }
-    
-    #insta{
-        width: 9%;
-    }
-    
-    #youtube{
-        width: 8%;
-    }
-    
-    #spotify{
-        width: 9%;
-    }
-    
-    #s6 {
-        height: auto;
-        background-color: #111;
-        margin-top: 15vh;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-    }
-    #s6 > p{
-        color: whitesmoke;
-    } 
-}
-*/
-
-
-
