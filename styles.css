@@ -76,7 +76,7 @@
         vertical-align: middle;
         margin-left: 20%;
         margin-right: 20%;
-        font-size: 2vw;
+        font-size: 1.8vw;
     }
 
     #quisom {
@@ -175,7 +175,7 @@
      }
 
     #s4 > div > div > p {
-        font-size: 1.7vw;
+        font-size: 1.6vw;
         color: #111;
     }
 
@@ -185,16 +185,17 @@
     }
 
     #concerts {
-        min-height: 30vw;
+        min-height: 60vw;
         padding-top: 5vh;
         padding-bottom: 5vh;
         background-color:  #111;
         display: flex;
+        max-height: auto;
     }
 
     #concerts > .R {
         float:right;
-        margin-right:3vw;
+        margin-right:1.5vw;
         width: 52%;
         display: flex;
     }
@@ -203,13 +204,21 @@
         position: absolute;
         top: 50%;
         left: 50%; 
-        transform: translate(-50%, -50%);
-        width: fit-content;
+        transform: translate(-40%, -50%);
+        width: 100%;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         align-self: center;
         align-items: center;
     }
+    
+    #concerts > .R > .center> img{
+        width: 19vw;
+        height: 26.9vw;
+        margin: 0.5vw;
+    }
+    
 
     #concerts > .L {
         float:left;
@@ -235,12 +244,6 @@
     #concerts > .L> #concertstext > ul >  p {
         font-size: 1.6vw;
         margin: 0.5vw;
-    }
-
-    #concerts > .R > .center> img{
-        width: 19vw;
-        height: 26.9vw;
-        margin:0.5vw;
     }
 
     #s5 {
