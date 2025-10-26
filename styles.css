@@ -9,6 +9,9 @@
 
     body {
         background-color: black;
+       width: 100%;
+       display:flex;
+       justify-content: center;
         
     }
 
@@ -304,12 +307,17 @@
 
     body {
         background-color: black;
+       width: 100%;
+       display:flex;
+       justify-content: center;
     }
 
-    /* #slides {
+    #slides {
         display: flex;
         flex-direction: column;
-    } */
+       width: 100%;
+       
+    } 
     
     #s1 {
         height: 30vw;
@@ -595,3 +603,4 @@
         font-size: 0.8vh;
     }
 }
+
